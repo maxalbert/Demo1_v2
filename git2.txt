@@ -1,0 +1,24 @@
+git config --global user.name "name"
+git config --global user.email "myemail@gmail.com"
+git config -l
+
+status of files:
+git status
+
+commit everything tracked that has changed:
+git commit -a -m "Blabla"
+
+show differences of current version to the last commit:
+git diff
+
+amend a commit:
+git commit --amend (careful with this)
+
+only commit one file:
+git commit filename.txt -m "bla"
+
+git pull - git pull overrides local changes
+git fetch
+
+gitk --all
+git merge remotes/origin/master
